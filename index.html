@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main__div">
+      <h2>Добавить задачу</h2>
+      <div class="create__task">
+        <input
+          type="text"
+          placeholder="Написать задачу"
+          id="task"
+          name="taskName"
+        />
+        <button type="submit" class="add__button">Добавить</button>
+      </div>
+
+      <h2 class="tasks__list__h2">Список задач</h2>
+      <div class="tasks__list">
+        <!-- <p>Нет задач</p> -->
+        <div class="tasks"></div>
+        <button type="submit" class="clear__button">
+          Очистить список задач
+        </button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
